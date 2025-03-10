@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>線上讀書會</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+            <img src="logo.png" alt="Logo">
+            <span>線上讀書會</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">線上讀書會</a></li>
+                <li><a href="#">讀書計畫</a></li>
+                <li><a href="#">二手書</a></li>
+                <li><a href="#">我的頁面</a></li>
+            </ul>
+            <div class="user-menu">
+                <span>name</span>
+                <div class="dropdown"></div>
+                    <button class="dropbtn">▼</button>
+                    <div class="dropdown-content"></div>
+                        <a href="#">通知</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <button>語文類</button>
+            <button>數理類</button>
+            <button>自然科學</button>
+            <button>社會科學</button>
+            <button>技術與專業科目</button>
+            <button>其他</button>
+        </aside>
+        <section class="main-content">
+            <div class="search-bar">
+                <input type="text" placeholder="搜尋貼文關鍵字">
+                <button><img src="search-icon.png" alt="Search"></button>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="user-avatar.png" alt="User Avatar">
+                    <div class="post-info">
+                        <span class="username">Justin</span>
+                        <span class="post-date">2023/08/20</span>
+                        <span class="post-category">語文類</span>
+                    </div>
+                </div>
+                <div class="post-content"></div>
+                    <img src="post-image.png" alt="Post Image">
+                    <p>理想混蛋奇異點演唱會
+                        第二次看理想混蛋演唱會
+                        建廷愛我別走第一名
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
